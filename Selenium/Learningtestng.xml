@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite thread-count="2" name="FunctionalTest" parallel="classes">
+  <test thread-count="2" name="TestMethods" parallel="classes"> -->
+<suite name="FunctionalTest">
+  <test name="TestMethods">
+  	<groups>
+  		<run>
+  			<include name="Common"></include>
+	  		<include name="Smoke"></include>
+	  		<include name="Sanity"></include>
+	  		<include name="Regression"></include>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="leaf.Lead.CreateLead"/>
+      <class name="leaf.Lead.MergeLead"/>
+      <class name="leaf.Lead.EditLead"/>
+    </classes>
+  </test> <!-- TestMethods -->
+</suite> <!-- FunctionalTest -->

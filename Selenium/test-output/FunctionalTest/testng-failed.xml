@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FunctionalTest]">
+  <test thread-count="5" name="TestMethods(failed)">
+    <groups>
+      <run>
+        <include name="Common"/>
+        <include name="Smoke"/>
+        <include name="Sanity"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="leaf.Lead.EditLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="login"/>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- leaf.Lead.EditLead -->
+      <class name="leaf.Lead.CreateLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="createLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- leaf.Lead.CreateLead -->
+      <class name="leaf.Lead.MergeLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="mergeLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- leaf.Lead.MergeLead -->
+    </classes>
+  </test> <!-- TestMethods(failed) -->
+</suite> <!-- Failed suite [FunctionalTest] -->

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TesLeaf" duration-ms="36567" started-at="2018-06-02T04:58:17Z" finished-at="2018-06-02T04:58:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36567" started-at="2018-06-02T04:58:17Z" finished-at="2018-06-02T04:58:54Z">
+      <class name="leaf.Lead.CreateLead">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="login" is-config="true" duration-ms="12151" started-at="2018-06-02T04:58:18Z" finished-at="2018-06-02T04:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="createLead" duration-ms="4732" started-at="2018-06-02T04:58:30Z" data-provider="fetchData" finished-at="2018-06-02T04:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kamalakannan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anandan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kamalakannan.anandan@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9840431771]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="closeApp" is-config="true" duration-ms="2093" started-at="2018-06-02T04:58:34Z" finished-at="2018-06-02T04:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="login" is-config="true" duration-ms="10100" started-at="2018-06-02T04:58:37Z" finished-at="2018-06-02T04:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="createLead" duration-ms="5312" started-at="2018-06-02T04:58:47Z" data-provider="fetchData" finished-at="2018-06-02T04:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Koushika]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopalakrishnan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[koushika.kamal@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7550099816]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:leaf.Lead.CreateLead@a86356]" name="closeApp" is-config="true" duration-ms="2095" started-at="2018-06-02T04:58:52Z" finished-at="2018-06-02T04:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- leaf.Lead.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- TesLeaf -->
+</testng-results>
