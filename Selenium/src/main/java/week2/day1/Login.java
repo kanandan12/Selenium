@@ -1,6 +1,8 @@
 package week2.day1;
 
 import java.util.List;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -12,6 +14,7 @@ public class Login {
 		// Launch Browser
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
+		//WebDriver driver = new ChromeDriver();
 		
 		// Maximize the browser
 		driver.manage().window().maximize();
